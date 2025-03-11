@@ -3,6 +3,8 @@
 This code reads the temperature, pressure and humidity from the BME280 sensor 
 and prints the values to the console.
 
+On PyPi you will install "micropython-bme280" library.
+
 References:
 - https://electrocredible.com/raspberry-pi-pico-bme280-interfacing-guide-using-micropython/
 - https://microcontrollerslab.com/bme280-raspberry-pi-pico-micropython-tutorial/
@@ -11,6 +13,9 @@ References:
 from time import sleep
 import machine
 import BME280
+
+import network
+from umqtt.simple import MQTTClient
 
 sdaPin1 = machine.Pin(2)
 sclPin1 = machine.Pin(3)
