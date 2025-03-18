@@ -13,13 +13,15 @@ References:
 from time import sleep, ticks_ms, ticks_diff
 from sensors import read_dht_sensor
 from mpc import run_mpc
-from datastream import send_data_to_pc
+from datastream import send_data_to_pc, connect_wifi
 
 # Constants
 MEASUREMENT_INTERVAL = 600000  # 10 minutes in milliseconds
 
 # Variables
 last_measurement_time = ticks_ms()
+
+#TODO connect_wifi()
 
 while True:
     current_time = ticks_ms()
@@ -31,7 +33,13 @@ while True:
         if temperature is not None and humidity is not None:
             print(f"Temperature: {temperature}°C, Humidity: {humidity}%")
             # Send data to PC
-            send_data_to_pc({"temperature": temperature, "humidity": humidity})
+            timestamp = utime.time()
+            data = {
+                "timestamp": timestamp,
+                "temperature": temperature,
+                "dht22_humidity": humidity,
+            }
+            #TODO send_data_to_pc(data)
         else:
             print("Failed to read sensor data.")
         
