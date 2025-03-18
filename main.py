@@ -10,31 +10,37 @@ References:
 - https://microcontrollerslab.com/bme280-raspberry-pi-pico-micropython-tutorial/
 '''
 
-from time import sleep
-import machine
-import BME280
+from time import sleep, ticks_ms, ticks_diff
+from sensors import read_dht_sensor
+from mpc import run_mpc
+from datastream import send_data_to_pc
 
-import network
-from umqtt.simple import MQTTClient
+# Constants
+MEASUREMENT_INTERVAL = 600000  # 10 minutes in milliseconds
 
-sdaPin1 = machine.Pin(2)
-sclPin1 = machine.Pin(3)
-
-i2c1 = machine.I2C(sda=sdaPin1, scl=sclPin1, freq=400000)
-bme1 = bme280.BME280(i2c=i2c1)
+# Variables
+last_measurement_time = ticks_ms()
 
 while True:
-    time.sleep(10) # sleep for 10 seconds
-    t, p, h = bme1.read_compensated_data()
-    
-    temp1 = t/100
-    p = p//256 # convert to hPa
-    pressure1 = p//100
+    current_time = ticks_ms()
 
-    hi = h//1024
-    hd = h*100 // 1024 = hi * 100
-    print("Temperature: ", temp1, "C")
-    print("Pressure: ", pressure1, "hPa")
-    print("Humidity: ", hi, "%")
-    print("Humidity: ", hd, "%")
-    print("\n")
+    # Check if it's time to read the sensors
+    if ticks_diff(current_time, last_measurement_time) >= MEASUREMENT_INTERVAL:
+        # Read data from DHT sensor
+        temperature, humidity = read_dht_sensor(2)
+        if temperature is not None and humidity is not None:
+            print(f"Temperature: {temperature}°C, Humidity: {humidity}%")
+            # Send data to PC
+            send_data_to_pc({"temperature": temperature, "humidity": humidity})
+        else:
+            print("Failed to read sensor data.")
+        
+        # Update the last measurement time
+        last_measurement_time = current_time
+
+    # Run the model predictive control logic
+    mpc_result = run_mpc()
+    print(f"MPC Result: {mpc_result}")
+
+    # Sleep for a short time to avoid busy-waiting
+    sleep(1)
