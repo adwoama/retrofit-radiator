@@ -20,7 +20,7 @@ def connect_wifi():
     print("Connected to WiFi!")
 
 
-def send_data_to_pc(data):
+def send_data_to_pc(data, server_url):
     """
     Sends data to the PC remotely.
     """

@@ -17,6 +17,7 @@ from datastream import send_data_to_pc, connect_wifi
 
 # Constants
 MEASUREMENT_INTERVAL = 600000  # 10 minutes in milliseconds
+server_url = "https://abcd1234.ngrok.io/receive-data" #TODO placeholder url
 
 # Variables
 last_measurement_time = ticks_ms()
