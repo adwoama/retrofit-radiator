@@ -11,6 +11,7 @@ References:
 '''
 
 from time import sleep, ticks_ms, ticks_diff
+import utime
 from sensors import read_dht_sensor
 from mpc import run_mpc
 from datastream import send_data_to_pc, connect_wifi
@@ -24,6 +25,17 @@ last_measurement_time = ticks_ms()
 
 #TODO connect_wifi()
 
+
+#Measure once before looping
+timestamp = utime.time()
+temperature, humidity = read_dht_sensor(2)
+data = {
+    "timestamp": timestamp,
+    "temperature": temperature,
+    "dht22_humidity": humidity,
+}
+
+#measure every 10 minutes
 while True:
     current_time = ticks_ms()
 
@@ -48,8 +60,8 @@ while True:
         last_measurement_time = current_time
 
     # Run the model predictive control logic
-    mpc_result = run_mpc()
-    print(f"MPC Result: {mpc_result}")
+    # TODO mpc_result = run_mpc()
+    #TODO print(f"MPC Result: {mpc_result}")
 
     # Sleep for a short time to avoid busy-waiting
     sleep(1)

@@ -1,9 +1,9 @@
 #functions to read from the DHT22 and BME280 sensors
-
+import machine
 from machine import Pin, I2C
 from time import sleep, ticks_ms, ticks_diff
 import dht
-from bme280 import BME280  # Ensure you have the MicroPython BME280 library installed
+import bme280 # Ensure you have the MicroPython BME280 library installed
 
 
 
