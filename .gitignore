@@ -1,3 +1,3 @@
 # Ignore Wi-Fi credentials
-wifi_config.py
+/lib/wifi_config.py
 

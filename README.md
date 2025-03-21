@@ -1,7 +1,7 @@
 # retrofit-radiator
 Project for class 12770
 
-make a file called wifi_config.py and put the following lines
+make a file called wifi_config.py in the lib folder and put the following lines
 
 ```python
 
