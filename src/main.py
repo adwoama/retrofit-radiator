@@ -14,7 +14,7 @@ from time import sleep, ticks_ms, ticks_diff
 import utime
 from sensors import read_dht_sensor
 from mpc import run_mpc
-from datastream import send_data_to_pc, connect_wifi
+from datastream import send_data_to_mqtt, connect_wifi
 
 # Constants
 MEASUREMENT_INTERVAL = 600000  # 10 minutes in milliseconds
@@ -23,7 +23,7 @@ server_url = "https://abcd1234.ngrok.io/receive-data" #TODO placeholder url
 # Variables
 last_measurement_time = ticks_ms()
 
-#TODO connect_wifi()
+connect_wifi()
 
 
 #Measure once before looping
@@ -34,6 +34,7 @@ data = {
     "temperature": temperature,
     "dht22_humidity": humidity,
 }
+print(f"Temperature: {temperature}°C, Humidity: {humidity}%")
 
 #measure every 10 minutes
 while True:
@@ -52,7 +53,7 @@ while True:
                 "temperature": temperature,
                 "dht22_humidity": humidity,
             }
-            #TODO send_data_to_pc(data)
+            send_data_to_mqtt(data)
         else:
             print("Failed to read sensor data.")
         
