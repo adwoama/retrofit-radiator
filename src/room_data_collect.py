@@ -12,7 +12,7 @@ References:
 
 from time import sleep, ticks_ms, ticks_diff
 import utime
-from sensors import read_dht_sensor
+from sensors import read_dht_sensor, read_bme_sensor
 from mpc import run_mpc
 from datastream import send_data_to_mqtt, connect_wifi
 
@@ -30,11 +30,24 @@ connect_wifi()
 timestamp = utime.time()
 temperature, humidity = read_dht_sensor(2)
 data = {
+    "sensor_id": "room1",
     "timestamp": timestamp,
     "temperature": temperature,
     "dht22_humidity": humidity,
 }
+send_data_to_mqtt(data)
 print(f"Temperature: {temperature}°C, Humidity: {humidity}%")
+
+temperature, pressure, humidity = read_bme_sensor(5,4)
+data = {
+    "sensor_id": "room2",
+    "timestamp": timestamp,
+    "temperature": temperature,
+    "bme_humidity": humidity,
+    "pressure": pressure,
+}
+print(f"Temperature: {temperature}°C, Humidity: {humidity}%, Pressure: {pressure}hPa")
+send_data_to_mqtt(data)
 
 #measure every 10 minutes
 while True:
@@ -48,10 +61,23 @@ while True:
             print(f"Temperature: {temperature}°C, Humidity: {humidity}%")
             # Send data to PC
             timestamp = utime.time()
+            #Sensor 1
             data = {
+                "sensor_id": "room1",
                 "timestamp": timestamp,
                 "temperature": temperature,
                 "dht22_humidity": humidity,
+            }
+            send_data_to_mqtt(data)
+
+            #Sensor 2
+            temperature, pressure, humidity = read_bme_sensor(5,4)
+            data = {
+                "sensor_id": "room2",
+                "timestamp": timestamp,
+                "temperature": temperature,
+                "bme_humidity": humidity,
+                "pressure": pressure,
             }
             send_data_to_mqtt(data)
         else:
