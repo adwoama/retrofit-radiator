@@ -41,12 +41,19 @@ password = ''
 
 connect_wifi(ssid, password)
 
-
 #Measure once before looping
 timestamp = utime.time()
+timestamp_f = "{}-{:02}-{:02}T{:02}:{:02}:{:02}".format(
+    utime.localtime()[0],  # Year
+    utime.localtime()[1],  # Month
+    utime.localtime()[2],  # Day
+    utime.localtime()[3],  # Hour
+    utime.localtime()[4],  # Minute
+    utime.localtime()[5])   # Second
+
 temperature, humidity = read_dht_sensor(2)
 data = {
-    "timestamp": timestamp,
+    "timestamp": timestamp_f,
     "temperature": temperature,
     "dht22_humidity": humidity,
 }
@@ -63,8 +70,16 @@ while True:
             print(f"Temperature: {temperature}°C, Humidity: {humidity}%")
             # Send data to PC
             timestamp = utime.time()
+            timestamp_f = "{}-{:02}-{:02}T{:02}:{:02}:{:02}".format(
+            utime.localtime()[0],  # Year
+            utime.localtime()[1],  # Month
+            utime.localtime()[2],  # Day
+            utime.localtime()[3],  # Hour
+            utime.localtime()[4],  # Minute
+            utime.localtime()[5])   # Second
+            
             data = {
-                "timestamp": timestamp,
+                "timestamp": timestamp_f,
                 "temperature": temperature,
                 "dht22_humidity": humidity,
             }
