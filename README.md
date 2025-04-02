@@ -19,7 +19,7 @@ WIFI_SSID = "YourWiFiSSID"
 WIFI_PASSWORD = "YourWiFiPassword"
 
 ```
-If you are running this exeriment on campus you will need to connect the pico to CMU-DEVICE not CMU-SECURE. Your SSID will be "CMUE-SECURE" and the password will be "" (an empty string). You will need to submit the MAC address. *I'll add instructions about this later.*
+If you are running this experiment on campus you will need to connect the pico to CMU-DEVICE not CMU-SECURE. Your SSID will be "CMUE-SECURE" and the password will be "" (an empty string). You will need to submit the MAC address. *I'll add instructions about this later.*
 
 ## 1. Raspberry Pi Pico Setup
 
