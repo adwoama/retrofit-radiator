@@ -23,7 +23,23 @@ server_url = "https://abcd1234.ngrok.io/receive-data" #TODO placeholder url
 # Variables
 last_measurement_time = ticks_ms()
 
-#TODO connect_wifi()
+# Connect to Wi-Fi
+
+# Create and activate the WLAN interface
+import network
+wifi = network.WLAN(network.STA_IF)
+wifi.active(True)
+
+# Get mac address
+from datastream import get_mac_address, print_mac_address
+mac_address = get_mac_address()
+print_mac_address()  # Print the MAC address for reference
+
+#define ssid and password for wifi connection
+ssid = 'CMU-DEVICE'
+password = ''
+
+connect_wifi(ssid, password)
 
 
 #Measure once before looping

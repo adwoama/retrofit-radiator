@@ -19,6 +19,15 @@ def connect_wifi():
 
     print("Connected to WiFi!")
 
+def get_mac_address():
+    wifi = network.WLAN(network.STA_IF)
+    return wifi.config('mac')
+
+def print_mac_address():
+    wifi = network.WLAN(network.STA_IF)
+    # Print the MAC address in a readable format
+    print("MAC Address:", ':'.join(f'{b:02x}' for b in wifi.config('mac')))
+    return
 
 def send_data_to_pc(data, server_url):
     """
