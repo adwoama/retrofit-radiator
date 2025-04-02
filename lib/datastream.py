@@ -8,9 +8,9 @@ from umqtt.simple import MQTTClient
 
 from wifi_config import WIFI_SSID, WIFI_PASSWORD
 
-BROKER = "broker.hivemq.com"  # Free public broker
+BROKER = "test.mosquitto.org"  # Free public broker
 PORT = 1883
-TOPIC = "retrofit_radiator/data"
+TOPIC = "cmu/retrofit_radiator/sensor1"
 
 def connect_wifi():
     #connect to wifi
@@ -29,7 +29,7 @@ def send_data_to_mqtt(data):
     """
     Published data to MQTT broker.
     """
-    client = MQTTClient("pico_client", BROKER, port=PORT)
+    client = MQTTClient("12770_retrofit_rad", BROKER, port=PORT)
     client.connect()
     print(f"Connected to MQTT broker at {BROKER}")
 
