@@ -16,5 +16,17 @@
         "sensor_id": "radiator",
         "temperature": 22.6,
         "timestamp": 1743594712
+    },
+    {
+        "dht22_humidity": 33.7,
+        "sensor_id": "radiator",
+        "temperature": 22.6,
+        "timestamp": 1743595313
+    },
+    {
+        "dht22_humidity": 33.7,
+        "sensor_id": "radiator",
+        "temperature": 22.5,
+        "timestamp": 1609459206
     }
 ]
