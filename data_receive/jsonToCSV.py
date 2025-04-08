@@ -2,9 +2,10 @@ import json
 import csv
 import requests
 from datetime import datetime, timedelta
+from api_key import API_KEY  # Assuming you have a separate file for your API key
 
 # Insert your OpenWeatherMap API key here
-API_KEY = "2c8400a2c235b7e5f3df60e6ba05bb98"
+API_KEY = API_KEY
 # Coordinates for CMU, e.g. (Pittsburgh)
 LAT = 40.4443533
 LON = -79.9435786

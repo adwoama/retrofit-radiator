@@ -1,4 +1,4 @@
 # Ignore Wi-Fi credentials
 /lib/wifi_config.py
 /data_receive/raw_results
-
+/data_receive/api_key.py
