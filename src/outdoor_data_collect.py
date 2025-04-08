@@ -24,17 +24,16 @@ server_url = "https://abcd1234.ngrok.io/receive-data" #TODO placeholder url
 last_measurement_time = ticks_ms()
 
 connect_wifi()
-
+sync_time()
 
 #Measure once before looping
 timestamp = utime.time()
-temperature, pressure, humidity = read_bme_sensor(5,4)
+temperature, humidity = read_dht_sensor(2)
 data = {
     "sensor_id": "outdoor",
     "timestamp": timestamp,
     "temperature": temperature,
     "dht22_humidity": humidity,
-    "pressure": pressure,
 }
 send_data_to_mqtt(data)
 print(f"Temperature: {temperature}°C, Humidity: {humidity}%")

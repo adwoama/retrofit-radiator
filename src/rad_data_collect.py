@@ -14,7 +14,7 @@ from time import sleep, ticks_ms, ticks_diff
 import utime
 from sensors import read_dht_sensor, read_bme_sensor
 from mpc import run_mpc
-from datastream import send_data_to_mqtt, connect_wifi
+from datastream import send_data_to_mqtt, connect_wifi, sync_time
 
 # Constants
 MEASUREMENT_INTERVAL = 600000  # 10 minutes in milliseconds
@@ -24,7 +24,7 @@ server_url = "https://abcd1234.ngrok.io/receive-data" #TODO placeholder url
 last_measurement_time = ticks_ms()
 
 connect_wifi()
-
+sync_time()
 
 #Measure once before looping
 timestamp = utime.time()

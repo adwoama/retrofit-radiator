@@ -3,7 +3,7 @@ import machine
 from machine import Pin, I2C
 from time import sleep, ticks_ms, ticks_diff
 import dht
-import bme280 # Ensure you have the MicroPython BME280 library installed
+from bme280 import BME280 # Ensure you have the MicroPython BME280 library installed
 
 
 
@@ -36,6 +36,14 @@ def read_bme_sensor(scl_pin, sda_pin):
     try:
         # Initialize I2C with the given pins
         i2c = I2C(0, scl=Pin(scl_pin), sda=Pin(sda_pin))
+        
+        # Scan for I2C devices
+        devices = i2c.scan()
+        if not devices:
+            print("No I2C devices found. Check wiring and connections.")
+            return None, None, None
+
+        # Initialize the BME280 sensor
         bme = BME280(i2c=i2c)
         
         # Read data from the BME280 sensor
