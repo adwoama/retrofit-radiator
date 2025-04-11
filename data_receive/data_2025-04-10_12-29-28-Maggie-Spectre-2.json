@@ -970,5 +970,41 @@
         "sensor_id": "radiator",
         "temperature": 23.7,
         "timestamp": 1744387775
+    },
+    {
+        "dht22_humidity": 37.4,
+        "sensor_id": "room",
+        "temperature": 24.3,
+        "timestamp": 1744387819
+    },
+    {
+        "dht22_humidity": 35.6,
+        "sensor_id": "radiator",
+        "temperature": 25.1,
+        "timestamp": 1744387836
+    },
+    {
+        "dht22_humidity": 37.4,
+        "sensor_id": "room",
+        "temperature": 24.3,
+        "timestamp": 1744387879
+    },
+    {
+        "dht22_humidity": 27.7,
+        "sensor_id": "radiator",
+        "temperature": 28.9,
+        "timestamp": 1744387896
+    },
+    {
+        "dht22_humidity": 37.6,
+        "sensor_id": "room",
+        "temperature": 24.3,
+        "timestamp": 1744387940
+    },
+    {
+        "dht22_humidity": 19.7,
+        "sensor_id": "radiator",
+        "temperature": 32.1,
+        "timestamp": 1744387957
     }
 ]
