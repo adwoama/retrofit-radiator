@@ -1,0 +1,1082 @@
+[
+    {
+        "dht22_humidity": 28.4,
+        "sensor_id": "radiator",
+        "temperature": 16.0,
+        "timestamp": 1744139630
+    },
+    {
+        "dht22_humidity": 18.4,
+        "sensor_id": "room",
+        "temperature": 22.3,
+        "timestamp": 1744139661
+    },
+    {
+        "dht22_humidity": 28.5,
+        "sensor_id": "radiator",
+        "temperature": 15.9,
+        "timestamp": 1744140230
+    },
+    {
+        "dht22_humidity": 18.2,
+        "sensor_id": "room",
+        "temperature": 22.3,
+        "timestamp": 1744140261
+    },
+    {
+        "dht22_humidity": 29.7,
+        "sensor_id": "radiator",
+        "temperature": 16.3,
+        "timestamp": 1744140831
+    },
+    {
+        "dht22_humidity": 18.8,
+        "sensor_id": "room",
+        "temperature": 22.5,
+        "timestamp": 1744140862
+    },
+    {
+        "dht22_humidity": 28.9,
+        "sensor_id": "radiator",
+        "temperature": 16.6,
+        "timestamp": 1744141432
+    },
+    {
+        "dht22_humidity": 19.3,
+        "sensor_id": "room",
+        "temperature": 22.6,
+        "timestamp": 1744141463
+    },
+    {
+        "dht22_humidity": 28.5,
+        "sensor_id": "radiator",
+        "temperature": 16.9,
+        "timestamp": 1744142032
+    },
+    {
+        "dht22_humidity": 19.4,
+        "sensor_id": "room",
+        "temperature": 22.6,
+        "timestamp": 1744142063
+    },
+    {
+        "dht22_humidity": 30.1,
+        "sensor_id": "radiator",
+        "temperature": 16.4,
+        "timestamp": 1744142633
+    },
+    {
+        "dht22_humidity": 19.3,
+        "sensor_id": "room",
+        "temperature": 22.5,
+        "timestamp": 1744142664
+    },
+    {
+        "dht22_humidity": 29.8,
+        "sensor_id": "radiator",
+        "temperature": 15.8,
+        "timestamp": 1744143234
+    },
+    {
+        "dht22_humidity": 19.1,
+        "sensor_id": "room",
+        "temperature": 22.4,
+        "timestamp": 1744143265
+    },
+    {
+        "dht22_humidity": 29.0,
+        "sensor_id": "radiator",
+        "temperature": 15.6,
+        "timestamp": 1744143834
+    },
+    {
+        "dht22_humidity": 18.6,
+        "sensor_id": "room",
+        "temperature": 22.3,
+        "timestamp": 1744143865
+    },
+    {
+        "dht22_humidity": 28.2,
+        "sensor_id": "radiator",
+        "temperature": 16.0,
+        "timestamp": 1744144435
+    },
+    {
+        "dht22_humidity": 18.3,
+        "sensor_id": "room",
+        "temperature": 22.4,
+        "timestamp": 1744144466
+    },
+    {
+        "dht22_humidity": 28.2,
+        "sensor_id": "radiator",
+        "temperature": 15.9,
+        "timestamp": 1744145036
+    },
+    {
+        "dht22_humidity": 18.1,
+        "sensor_id": "room",
+        "temperature": 22.3,
+        "timestamp": 1744145067
+    },
+    {
+        "dht22_humidity": 28.2,
+        "sensor_id": "radiator",
+        "temperature": 15.7,
+        "timestamp": 1744145636
+    },
+    {
+        "dht22_humidity": 18.0,
+        "sensor_id": "room",
+        "temperature": 22.3,
+        "timestamp": 1744145667
+    },
+    {
+        "dht22_humidity": 28.3,
+        "sensor_id": "radiator",
+        "temperature": 15.6,
+        "timestamp": 1744146237
+    },
+    {
+        "dht22_humidity": 18.1,
+        "sensor_id": "room",
+        "temperature": 22.2,
+        "timestamp": 1744146268
+    },
+    {
+        "dht22_humidity": 28.8,
+        "sensor_id": "radiator",
+        "temperature": 15.4,
+        "timestamp": 1744146838
+    },
+    {
+        "dht22_humidity": 18.0,
+        "sensor_id": "room",
+        "temperature": 22.2,
+        "timestamp": 1744146868
+    },
+    {
+        "dht22_humidity": 28.5,
+        "sensor_id": "radiator",
+        "temperature": 16.2,
+        "timestamp": 1744147438
+    },
+    {
+        "dht22_humidity": 17.8,
+        "sensor_id": "room",
+        "temperature": 22.3,
+        "timestamp": 1744147469
+    },
+    {
+        "dht22_humidity": 28.0,
+        "sensor_id": "radiator",
+        "temperature": 15.9,
+        "timestamp": 1744148039
+    },
+    {
+        "dht22_humidity": 17.8,
+        "sensor_id": "room",
+        "temperature": 22.3,
+        "timestamp": 1744148070
+    },
+    {
+        "dht22_humidity": 28.0,
+        "sensor_id": "radiator",
+        "temperature": 15.5,
+        "timestamp": 1744148640
+    },
+    {
+        "dht22_humidity": 17.7,
+        "sensor_id": "room",
+        "temperature": 22.2,
+        "timestamp": 1744148670
+    },
+    {
+        "dht22_humidity": 28.1,
+        "sensor_id": "radiator",
+        "temperature": 15.1,
+        "timestamp": 1744149241
+    },
+    {
+        "dht22_humidity": 17.6,
+        "sensor_id": "room",
+        "temperature": 22.2,
+        "timestamp": 1744149271
+    },
+    {
+        "dht22_humidity": 28.8,
+        "sensor_id": "radiator",
+        "temperature": 14.8,
+        "timestamp": 1744149841
+    },
+    {
+        "dht22_humidity": 17.5,
+        "sensor_id": "room",
+        "temperature": 22.1,
+        "timestamp": 1744149872
+    },
+    {
+        "dht22_humidity": 28.1,
+        "sensor_id": "radiator",
+        "temperature": 15.3,
+        "timestamp": 1744150442
+    },
+    {
+        "dht22_humidity": 17.4,
+        "sensor_id": "room",
+        "temperature": 22.1,
+        "timestamp": 1744150472
+    },
+    {
+        "dht22_humidity": 27.7,
+        "sensor_id": "radiator",
+        "temperature": 15.5,
+        "timestamp": 1744151043
+    },
+    {
+        "dht22_humidity": 17.4,
+        "sensor_id": "room",
+        "temperature": 22.2,
+        "timestamp": 1744151073
+    },
+    {
+        "dht22_humidity": 27.4,
+        "sensor_id": "radiator",
+        "temperature": 15.5,
+        "timestamp": 1744151644
+    },
+    {
+        "dht22_humidity": 17.2,
+        "sensor_id": "room",
+        "temperature": 22.2,
+        "timestamp": 1744151673
+    },
+    {
+        "dht22_humidity": 27.6,
+        "sensor_id": "radiator",
+        "temperature": 15.0,
+        "timestamp": 1744152244
+    },
+    {
+        "dht22_humidity": 17.1,
+        "sensor_id": "room",
+        "temperature": 22.1,
+        "timestamp": 1744152274
+    },
+    {
+        "dht22_humidity": 28.2,
+        "sensor_id": "radiator",
+        "temperature": 14.6,
+        "timestamp": 1744152845
+    },
+    {
+        "dht22_humidity": 17.0,
+        "sensor_id": "room",
+        "temperature": 22.0,
+        "timestamp": 1744152875
+    },
+    {
+        "dht22_humidity": 28.2,
+        "sensor_id": "radiator",
+        "temperature": 14.6,
+        "timestamp": 1744153446
+    },
+    {
+        "dht22_humidity": 16.8,
+        "sensor_id": "room",
+        "temperature": 22.0,
+        "timestamp": 1744153475
+    },
+    {
+        "dht22_humidity": 28.0,
+        "sensor_id": "radiator",
+        "temperature": 14.8,
+        "timestamp": 1744154046
+    },
+    {
+        "dht22_humidity": 16.8,
+        "sensor_id": "room",
+        "temperature": 22.0,
+        "timestamp": 1744154076
+    },
+    {
+        "dht22_humidity": 27.7,
+        "sensor_id": "radiator",
+        "temperature": 15.1,
+        "timestamp": 1744154647
+    },
+    {
+        "dht22_humidity": 16.8,
+        "sensor_id": "room",
+        "temperature": 22.1,
+        "timestamp": 1744154676
+    },
+    {
+        "dht22_humidity": 27.7,
+        "sensor_id": "radiator",
+        "temperature": 14.7,
+        "timestamp": 1744155248
+    },
+    {
+        "dht22_humidity": 16.6,
+        "sensor_id": "room",
+        "temperature": 22.1,
+        "timestamp": 1744155277
+    },
+    {
+        "dht22_humidity": 27.4,
+        "sensor_id": "radiator",
+        "temperature": 14.9,
+        "timestamp": 1744155848
+    },
+    {
+        "dht22_humidity": 16.6,
+        "sensor_id": "room",
+        "temperature": 22.1,
+        "timestamp": 1744155878
+    },
+    {
+        "dht22_humidity": 28.1,
+        "sensor_id": "radiator",
+        "temperature": 14.6,
+        "timestamp": 1744156449
+    },
+    {
+        "dht22_humidity": 16.6,
+        "sensor_id": "room",
+        "temperature": 22.1,
+        "timestamp": 1744156478
+    },
+    {
+        "dht22_humidity": 28.1,
+        "sensor_id": "radiator",
+        "temperature": 14.6,
+        "timestamp": 1744157049
+    },
+    {
+        "dht22_humidity": 16.5,
+        "sensor_id": "room",
+        "temperature": 22.0,
+        "timestamp": 1744157079
+    },
+    {
+        "dht22_humidity": 28.2,
+        "sensor_id": "radiator",
+        "temperature": 14.2,
+        "timestamp": 1744157650
+    },
+    {
+        "dht22_humidity": 16.5,
+        "sensor_id": "room",
+        "temperature": 22.0,
+        "timestamp": 1744157679
+    },
+    {
+        "dht22_humidity": 28.2,
+        "sensor_id": "radiator",
+        "temperature": 14.2,
+        "timestamp": 1744158251
+    },
+    {
+        "dht22_humidity": 16.5,
+        "sensor_id": "room",
+        "temperature": 21.9,
+        "timestamp": 1744158280
+    },
+    {
+        "dht22_humidity": 28.2,
+        "sensor_id": "radiator",
+        "temperature": 14.2,
+        "timestamp": 1744158852
+    },
+    {
+        "dht22_humidity": 16.5,
+        "sensor_id": "room",
+        "temperature": 21.9,
+        "timestamp": 1744158880
+    },
+    {
+        "dht22_humidity": 28.3,
+        "sensor_id": "radiator",
+        "temperature": 14.3,
+        "timestamp": 1744159452
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.9,
+        "timestamp": 1744159481
+    },
+    {
+        "dht22_humidity": 28.3,
+        "sensor_id": "radiator",
+        "temperature": 14.2,
+        "timestamp": 1744160053
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.9,
+        "timestamp": 1744160082
+    },
+    {
+        "dht22_humidity": 28.4,
+        "sensor_id": "radiator",
+        "temperature": 14.0,
+        "timestamp": 1744160653
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.9,
+        "timestamp": 1744160682
+    },
+    {
+        "dht22_humidity": 28.5,
+        "sensor_id": "radiator",
+        "temperature": 14.0,
+        "timestamp": 1744161254
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.9,
+        "timestamp": 1744161283
+    },
+    {
+        "dht22_humidity": 28.6,
+        "sensor_id": "radiator",
+        "temperature": 14.0,
+        "timestamp": 1744161855
+    },
+    {
+        "dht22_humidity": 16.3,
+        "sensor_id": "room",
+        "temperature": 21.9,
+        "timestamp": 1744161883
+    },
+    {
+        "dht22_humidity": 28.5,
+        "sensor_id": "radiator",
+        "temperature": 14.1,
+        "timestamp": 1744162455
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.9,
+        "timestamp": 1744162484
+    },
+    {
+        "dht22_humidity": 28.4,
+        "sensor_id": "radiator",
+        "temperature": 14.2,
+        "timestamp": 1744163056
+    },
+    {
+        "dht22_humidity": 16.3,
+        "sensor_id": "room",
+        "temperature": 21.9,
+        "timestamp": 1744163085
+    },
+    {
+        "dht22_humidity": 28.6,
+        "sensor_id": "radiator",
+        "temperature": 14.1,
+        "timestamp": 1744163657
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.9,
+        "timestamp": 1744163685
+    },
+    {
+        "dht22_humidity": 28.9,
+        "sensor_id": "radiator",
+        "temperature": 13.9,
+        "timestamp": 1744164257
+    },
+    {
+        "dht22_humidity": 16.3,
+        "sensor_id": "room",
+        "temperature": 21.8,
+        "timestamp": 1744164286
+    },
+    {
+        "dht22_humidity": 28.8,
+        "sensor_id": "radiator",
+        "temperature": 13.9,
+        "timestamp": 1744164858
+    },
+    {
+        "dht22_humidity": 16.3,
+        "sensor_id": "room",
+        "temperature": 21.8,
+        "timestamp": 1744164886
+    },
+    {
+        "dht22_humidity": 28.4,
+        "sensor_id": "radiator",
+        "temperature": 14.3,
+        "timestamp": 1744165459
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.8,
+        "timestamp": 1744165487
+    },
+    {
+        "dht22_humidity": 28.4,
+        "sensor_id": "radiator",
+        "temperature": 14.4,
+        "timestamp": 1744166059
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.9,
+        "timestamp": 1744166088
+    },
+    {
+        "dht22_humidity": 28.1,
+        "sensor_id": "radiator",
+        "temperature": 14.4,
+        "timestamp": 1744166660
+    },
+    {
+        "dht22_humidity": 16.3,
+        "sensor_id": "room",
+        "temperature": 21.9,
+        "timestamp": 1744166688
+    },
+    {
+        "dht22_humidity": 28.7,
+        "sensor_id": "radiator",
+        "temperature": 14.1,
+        "timestamp": 1744167261
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.8,
+        "timestamp": 1744167289
+    },
+    {
+        "dht22_humidity": 28.6,
+        "sensor_id": "radiator",
+        "temperature": 13.9,
+        "timestamp": 1744167861
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.8,
+        "timestamp": 1744167889
+    },
+    {
+        "dht22_humidity": 28.8,
+        "sensor_id": "radiator",
+        "temperature": 13.7,
+        "timestamp": 1744168462
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.8,
+        "timestamp": 1744168490
+    },
+    {
+        "dht22_humidity": 29.2,
+        "sensor_id": "radiator",
+        "temperature": 13.7,
+        "timestamp": 1744169063
+    },
+    {
+        "dht22_humidity": 16.3,
+        "sensor_id": "room",
+        "temperature": 21.7,
+        "timestamp": 1744169091
+    },
+    {
+        "dht22_humidity": 29.0,
+        "sensor_id": "radiator",
+        "temperature": 13.6,
+        "timestamp": 1744169663
+    },
+    {
+        "dht22_humidity": 16.3,
+        "sensor_id": "room",
+        "temperature": 21.7,
+        "timestamp": 1744169691
+    },
+    {
+        "dht22_humidity": 29.2,
+        "sensor_id": "radiator",
+        "temperature": 13.5,
+        "timestamp": 1744170264
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.7,
+        "timestamp": 1744170292
+    },
+    {
+        "dht22_humidity": 29.1,
+        "sensor_id": "radiator",
+        "temperature": 13.4,
+        "timestamp": 1744170865
+    },
+    {
+        "dht22_humidity": 16.3,
+        "sensor_id": "room",
+        "temperature": 21.7,
+        "timestamp": 1744170892
+    },
+    {
+        "dht22_humidity": 29.1,
+        "sensor_id": "radiator",
+        "temperature": 13.4,
+        "timestamp": 1744171465
+    },
+    {
+        "dht22_humidity": 16.3,
+        "sensor_id": "room",
+        "temperature": 21.7,
+        "timestamp": 1744171493
+    },
+    {
+        "dht22_humidity": 29.4,
+        "sensor_id": "radiator",
+        "temperature": 13.3,
+        "timestamp": 1744172066
+    },
+    {
+        "dht22_humidity": 16.3,
+        "sensor_id": "room",
+        "temperature": 21.7,
+        "timestamp": 1744172094
+    },
+    {
+        "dht22_humidity": 29.4,
+        "sensor_id": "radiator",
+        "temperature": 13.3,
+        "timestamp": 1744172667
+    },
+    {
+        "dht22_humidity": 16.3,
+        "sensor_id": "room",
+        "temperature": 21.6,
+        "timestamp": 1744172694
+    },
+    {
+        "dht22_humidity": 29.8,
+        "sensor_id": "radiator",
+        "temperature": 13.2,
+        "timestamp": 1744173268
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.6,
+        "timestamp": 1744173295
+    },
+    {
+        "dht22_humidity": 29.9,
+        "sensor_id": "radiator",
+        "temperature": 13.2,
+        "timestamp": 1744173868
+    },
+    {
+        "dht22_humidity": 16.4,
+        "sensor_id": "room",
+        "temperature": 21.6,
+        "timestamp": 1744173895
+    },
+    {
+        "dht22_humidity": 30.4,
+        "sensor_id": "radiator",
+        "temperature": 13.2,
+        "timestamp": 1744174469
+    },
+    {
+        "dht22_humidity": 16.5,
+        "sensor_id": "room",
+        "temperature": 21.6,
+        "timestamp": 1744174496
+    },
+    {
+        "dht22_humidity": 30.9,
+        "sensor_id": "radiator",
+        "temperature": 13.1,
+        "timestamp": 1744175070
+    },
+    {
+        "dht22_humidity": 16.6,
+        "sensor_id": "room",
+        "temperature": 21.6,
+        "timestamp": 1744175097
+    },
+    {
+        "dht22_humidity": 31.1,
+        "sensor_id": "radiator",
+        "temperature": 13.1,
+        "timestamp": 1744175670
+    },
+    {
+        "dht22_humidity": 16.8,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744175697
+    },
+    {
+        "dht22_humidity": 31.2,
+        "sensor_id": "radiator",
+        "temperature": 12.9,
+        "timestamp": 1744176271
+    },
+    {
+        "dht22_humidity": 16.9,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744176298
+    },
+    {
+        "dht22_humidity": 31.6,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744176872
+    },
+    {
+        "dht22_humidity": 17.0,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744176898
+    },
+    {
+        "dht22_humidity": 31.1,
+        "sensor_id": "radiator",
+        "temperature": 13.1,
+        "timestamp": 1744177472
+    },
+    {
+        "dht22_humidity": 17.0,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744177499
+    },
+    {
+        "dht22_humidity": 31.5,
+        "sensor_id": "radiator",
+        "temperature": 12.9,
+        "timestamp": 1744178073
+    },
+    {
+        "dht22_humidity": 17.1,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744178100
+    },
+    {
+        "dht22_humidity": 31.5,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744178674
+    },
+    {
+        "dht22_humidity": 17.1,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744178700
+    },
+    {
+        "dht22_humidity": 31.2,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744179274
+    },
+    {
+        "dht22_humidity": 17.1,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744179301
+    },
+    {
+        "dht22_humidity": 31.5,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744179875
+    },
+    {
+        "dht22_humidity": 17.1,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744179902
+    },
+    {
+        "dht22_humidity": 32.2,
+        "sensor_id": "radiator",
+        "temperature": 12.9,
+        "timestamp": 1744180476
+    },
+    {
+        "dht22_humidity": 17.2,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744180502
+    },
+    {
+        "dht22_humidity": 32.2,
+        "sensor_id": "radiator",
+        "temperature": 12.9,
+        "timestamp": 1744181077
+    },
+    {
+        "dht22_humidity": 17.4,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744181103
+    },
+    {
+        "dht22_humidity": 32.4,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744181677
+    },
+    {
+        "dht22_humidity": 17.4,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744181703
+    },
+    {
+        "dht22_humidity": 32.8,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744182278
+    },
+    {
+        "dht22_humidity": 17.5,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744182304
+    },
+    {
+        "dht22_humidity": 32.7,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744182878
+    },
+    {
+        "dht22_humidity": 17.6,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744182905
+    },
+    {
+        "dht22_humidity": 32.9,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744183479
+    },
+    {
+        "dht22_humidity": 17.7,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744183505
+    },
+    {
+        "dht22_humidity": 33.0,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744184080
+    },
+    {
+        "dht22_humidity": 17.8,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744184106
+    },
+    {
+        "dht22_humidity": 33.2,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744184680
+    },
+    {
+        "dht22_humidity": 17.8,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744184707
+    },
+    {
+        "dht22_humidity": 33.4,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744185281
+    },
+    {
+        "dht22_humidity": 18.0,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744185307
+    },
+    {
+        "dht22_humidity": 33.5,
+        "sensor_id": "radiator",
+        "temperature": 13.1,
+        "timestamp": 1744185882
+    },
+    {
+        "dht22_humidity": 18.1,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744185908
+    },
+    {
+        "dht22_humidity": 33.9,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744186483
+    },
+    {
+        "dht22_humidity": 18.2,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744186508
+    },
+    {
+        "dht22_humidity": 34.0,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744187083
+    },
+    {
+        "dht22_humidity": 18.3,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744187109
+    },
+    {
+        "dht22_humidity": 33.5,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744187684
+    },
+    {
+        "dht22_humidity": 18.3,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744187710
+    },
+    {
+        "dht22_humidity": 34.3,
+        "sensor_id": "radiator",
+        "temperature": 12.9,
+        "timestamp": 1744188285
+    },
+    {
+        "dht22_humidity": 18.4,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744188310
+    },
+    {
+        "dht22_humidity": 34.6,
+        "sensor_id": "radiator",
+        "temperature": 12.9,
+        "timestamp": 1744188885
+    },
+    {
+        "dht22_humidity": 18.5,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744188911
+    },
+    {
+        "dht22_humidity": 34.8,
+        "sensor_id": "radiator",
+        "temperature": 12.9,
+        "timestamp": 1744189486
+    },
+    {
+        "dht22_humidity": 18.7,
+        "sensor_id": "room",
+        "temperature": 21.4,
+        "timestamp": 1744189511
+    },
+    {
+        "dht22_humidity": 35.1,
+        "sensor_id": "radiator",
+        "temperature": 12.7,
+        "timestamp": 1744190087
+    },
+    {
+        "dht22_humidity": 18.8,
+        "sensor_id": "room",
+        "temperature": 21.4,
+        "timestamp": 1744190112
+    },
+    {
+        "dht22_humidity": 34.7,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744190687
+    },
+    {
+        "dht22_humidity": 18.8,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744190713
+    },
+    {
+        "dht22_humidity": 34.6,
+        "sensor_id": "radiator",
+        "temperature": 13.1,
+        "timestamp": 1744191288
+    },
+    {
+        "dht22_humidity": 18.9,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744191313
+    },
+    {
+        "dht22_humidity": 34.6,
+        "sensor_id": "radiator",
+        "temperature": 13.1,
+        "timestamp": 1744191889
+    },
+    {
+        "dht22_humidity": 18.9,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744191914
+    },
+    {
+        "dht22_humidity": 34.6,
+        "sensor_id": "radiator",
+        "temperature": 13.0,
+        "timestamp": 1744192489
+    },
+    {
+        "dht22_humidity": 18.9,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744192514
+    },
+    {
+        "dht22_humidity": 34.8,
+        "sensor_id": "radiator",
+        "temperature": 12.8,
+        "timestamp": 1744193090
+    },
+    {
+        "dht22_humidity": 18.9,
+        "sensor_id": "room",
+        "temperature": 21.5,
+        "timestamp": 1744193115
+    }
+]
