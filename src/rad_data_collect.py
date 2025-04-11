@@ -15,16 +15,44 @@ import utime
 from sensors import read_dht_sensor, read_bme_sensor
 from mpc import run_mpc
 from datastream import send_data_to_mqtt, connect_wifi, sync_time
+from fan import fanOn, fanOff
+from umqtt.simple import MQTTClient
 
 # Constants
 MEASUREMENT_INTERVAL = 600000  # 10 minutes in milliseconds
+BROKER = "test.mosquitto.org"  # MQTT broker
+PORT = 1883
+TOPIC_FAN_STATE = "cmu/retrofit_radiator/fan_state"
 server_url = "https://abcd1234.ngrok.io/receive-data" #TODO placeholder url
 
 # Variables
 last_measurement_time = ticks_ms()
 
+# Callback function to handle incoming MQTT messages
+def mqtt_callback(topic, msg):
+    """
+    Callback function triggered when a message is received on a subscribed topic.
+    """
+    print(f"Received message on topic {topic.decode()}: {msg.decode()}")
+    if topic.decode() == TOPIC_FAN_STATE:
+        if msg.decode().lower() == "on":
+            print("Turning fan ON")
+            fanOn()
+        elif msg.decode().lower() == "off":
+            print("Turning fan OFF")
+            fanOff()
+
 connect_wifi()
 sync_time()
+# Initialize MQTT client
+client = MQTTClient("12770_retrofit_rad", BROKER, port=PORT)
+client.set_callback(mqtt_callback)
+client.connect()
+print(f"Connected to MQTT broker at {BROKER}")
+
+# Subscribe to the fan_state topic
+client.subscribe(TOPIC_FAN_STATE)
+print(f"Subscribed to topic '{TOPIC_FAN_STATE}'")
 
 #Measure once before looping
 timestamp = utime.time()
@@ -43,6 +71,8 @@ print(f"Temperature: {temperature}°C, Humidity: {humidity}%")
 #measure every 10 minutes
 while True:
     current_time = ticks_ms()
+    # Check for incoming MQTT messages
+    client.check_msg()
 
     # Check if it's time to read the sensors
     if ticks_diff(current_time, last_measurement_time) >= MEASUREMENT_INTERVAL:

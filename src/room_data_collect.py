@@ -15,6 +15,7 @@ import utime
 from sensors import read_dht_sensor, read_bme_sensor
 from mpc import run_mpc
 from datastream import send_data_to_mqtt, connect_wifi, sync_time
+from fan import fanOn, fanOff
 
 # Constants
 MEASUREMENT_INTERVAL = 600000  # 10 minutes in milliseconds
@@ -25,7 +26,7 @@ last_measurement_time = ticks_ms()
 
 connect_wifi()
 sync_time()
-
+fanOn()
 
 #Measure once before looping
 timestamp = utime.time()
