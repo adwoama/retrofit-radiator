@@ -851,3 +851,16 @@
         "temperature": 28.8,
         "timestamp": 1744387169
     },
+    {
+        "dht22_humidity": 36.8,
+        "sensor_id": "room",
+        "temperature": 24.5,
+        "timestamp": 1744387213
+    },
+    {
+        "dht22_humidity": 27.6,
+        "sensor_id": "radiator",
+        "temperature": 28.7,
+        "timestamp": 1744387230
+    }
+]
