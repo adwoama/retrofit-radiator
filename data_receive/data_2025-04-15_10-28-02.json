@@ -88,5 +88,179 @@
         "sensor_id": "room",
         "temperature": 25.1,
         "timestamp": 1744736260
+    },
+    {
+        "dht22_humidity": 30.3,
+        "sensor_id": "room",
+        "temperature": 25.0,
+        "timestamp": 1744736861
+    },
+    {
+        "dht22_humidity": 29.9,
+        "sensor_id": "room",
+        "temperature": 25.2,
+        "timestamp": 1744737462
+    },
+    {
+        "dht22_humidity": 29.5,
+        "sensor_id": "room",
+        "temperature": 25.4,
+        "timestamp": 1744738062
+    },
+    {
+        "dht22_humidity": 29.5,
+        "sensor_id": "room",
+        "temperature": 25.2,
+        "timestamp": 1744738663
+    },
+    {
+        "dht22_humidity": 29.5,
+        "sensor_id": "room",
+        "temperature": 25.1,
+        "timestamp": 1744739264
+    },
+    {
+        "dht22_humidity": 29.7,
+        "sensor_id": "room",
+        "temperature": 25.0,
+        "timestamp": 1744739865
+    },
+    {
+        "dht22_humidity": 29.7,
+        "sensor_id": "room",
+        "temperature": 25.1,
+        "timestamp": 1744740465
+    },
+    {
+        "dht22_humidity": 29.2,
+        "sensor_id": "room",
+        "temperature": 25.3,
+        "timestamp": 1744741066
+    },
+    {
+        "dht22_humidity": 29.3,
+        "sensor_id": "room",
+        "temperature": 25.2,
+        "timestamp": 1744741667
+    },
+    {
+        "dht22_humidity": 29.7,
+        "sensor_id": "room",
+        "temperature": 25.2,
+        "timestamp": 1744742267
+    },
+    {
+        "dht22_humidity": 29.9,
+        "sensor_id": "room",
+        "temperature": 25.2,
+        "timestamp": 1744742868
+    },
+    {
+        "dht22_humidity": 29.9,
+        "sensor_id": "room",
+        "temperature": 25.2,
+        "timestamp": 1744743468
+    },
+    {
+        "dht22_humidity": 29.5,
+        "sensor_id": "room",
+        "temperature": 25.5,
+        "timestamp": 1744744069
+    },
+    {
+        "dht22_humidity": 29.9,
+        "sensor_id": "room",
+        "temperature": 25.3,
+        "timestamp": 1744744670
+    },
+    {
+        "dht22_humidity": 30.2,
+        "sensor_id": "room",
+        "temperature": 25.2,
+        "timestamp": 1744745270
+    },
+    {
+        "dht22_humidity": 30.7,
+        "sensor_id": "room",
+        "temperature": 25.1,
+        "timestamp": 1744745871
+    },
+    {
+        "dht22_humidity": 30.9,
+        "sensor_id": "room",
+        "temperature": 25.2,
+        "timestamp": 1744746472
+    },
+    {
+        "dht22_humidity": 30.8,
+        "sensor_id": "room",
+        "temperature": 25.4,
+        "timestamp": 1744747072
+    },
+    {
+        "dht22_humidity": 31.2,
+        "sensor_id": "room",
+        "temperature": 25.3,
+        "timestamp": 1744747673
+    },
+    {
+        "dht22_humidity": 31.2,
+        "sensor_id": "room",
+        "temperature": 25.2,
+        "timestamp": 1744748273
+    },
+    {
+        "dht22_humidity": 31.5,
+        "sensor_id": "room",
+        "temperature": 25.0,
+        "timestamp": 1744748874
+    },
+    {
+        "dht22_humidity": 31.7,
+        "sensor_id": "room",
+        "temperature": 25.1,
+        "timestamp": 1744749474
+    },
+    {
+        "dht22_humidity": 31.7,
+        "sensor_id": "room",
+        "temperature": 25.3,
+        "timestamp": 1744750075
+    },
+    {
+        "dht22_humidity": 31.8,
+        "sensor_id": "room",
+        "temperature": 25.3,
+        "timestamp": 1744750675
+    },
+    {
+        "dht22_humidity": 32.0,
+        "sensor_id": "room",
+        "temperature": 25.1,
+        "timestamp": 1744751276
+    },
+    {
+        "dht22_humidity": 32.1,
+        "sensor_id": "room",
+        "temperature": 25.0,
+        "timestamp": 1744751877
+    },
+    {
+        "dht22_humidity": 32.0,
+        "sensor_id": "room",
+        "temperature": 25.2,
+        "timestamp": 1744752477
+    },
+    {
+        "dht22_humidity": 31.8,
+        "sensor_id": "room",
+        "temperature": 25.2,
+        "timestamp": 1744753078
+    },
+    {
+        "dht22_humidity": 31.8,
+        "sensor_id": "room",
+        "temperature": 25.1,
+        "timestamp": 1744753679
     }
 ]

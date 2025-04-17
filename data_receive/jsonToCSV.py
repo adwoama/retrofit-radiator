@@ -37,8 +37,8 @@ def get_outdoor_temp_utc(timestamp):
         return "N/A"
 
 def main():
-    input_file = "data_receive/raw_results/data_2025-04-08_14-00-41.json"
-    output_file = "data_receive/data_2025-04-08_14-00-41.csv"
+    input_file = "data_receive/data_2025-04-16_18-33-50.json"
+    output_file = "data_receive/data_2025-04-16_18-33-50.csv"
 
     with open(input_file, "r") as jf:
         data = json.load(jf)

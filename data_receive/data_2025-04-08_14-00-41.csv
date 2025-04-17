@@ -1,0 +1,7 @@
+timestamp,sensor_id,humidity,temperature (sensor reading),temperature (outdoor)
+2025-04-08 14:00:49,room,27.2,21.8,N/A
+2025-04-08 18:08:31,room,18.8,22.3,N/A
+2025-04-08 18:09:20,room,19.0,22.1,N/A
+2025-04-08 18:11:53,radiator,28.9,16.7,N/A
+2025-04-08 18:13:50,radiator,28.1,17.0,N/A
+2025-04-08 18:14:21,room,18.6,22.4,N/A
