@@ -13,6 +13,7 @@ from wifi_config import WIFI_SSID, WIFI_PASSWORD
 BROKER = "test.mosquitto.org"  # Free public broker
 PORT = 1883
 TOPIC = "cmu/retrofit_radiator/sensor1"
+TOPIC_FAN_STATE = b"cmu/retrofit_radiator/fan_state"  # Topic to control the fan state
 
 
 
@@ -53,6 +54,25 @@ def send_data_to_mqtt(data):
     print(f"Published data to topic '{TOPIC}': {payload}")
 
     client.disconnect()
+
+def send_fan_state(state):
+    """
+    Sends the fan state ('on' or 'off') to the MQTT broker.
+    """
+    try:
+        # Initialize MQTT client
+        client = MQTTClient("pico_w_client", BROKER, PORT)
+        client.connect()
+        print(f"Connected to MQTT broker at {BROKER}")
+
+        # Publish the fan state to the topic
+        client.publish(TOPIC_FAN_STATE, state.encode())
+        print(f"Sent '{state}' to topic '{TOPIC_FAN_STATE.decode()}'")
+
+        # Disconnect from the broker
+        client.disconnect()
+    except Exception as e:
+        print(f"Error: {e}")
     
     
     

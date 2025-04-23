@@ -25,7 +25,7 @@ MEASUREMENT_INTERVAL = 600000 # 10 minutes in milliseconds
 BROKER = "test.mosquitto.org"  # MQTT broker
 PORT = 1883
 TOPIC_FAN_STATE = "cmu/retrofit_radiator/fan_state"
-server_url = "https://abcd1234.ngrok.io/receive-data" #TODO placeholder url
+
 
 # Variables
 last_measurement_time = ticks_ms()
