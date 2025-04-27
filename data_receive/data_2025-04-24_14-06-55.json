@@ -1,0 +1,26 @@
+[
+    {
+        "dht22_humidity": 37.7,
+        "sensor_id": "room",
+        "temperature": 27.7,
+        "timestamp": 1745520215
+    },
+    {
+        "dht22_humidity": 13.2,
+        "sensor_id": "radiator",
+        "temperature": 41.7,
+        "timestamp": 1745520278
+    },
+    {
+        "dht22_humidity": 37.7,
+        "sensor_id": "room",
+        "temperature": 27.7,
+        "timestamp": 1745520811
+    },
+    {
+        "dht22_humidity": 13.2,
+        "sensor_id": "radiator",
+        "temperature": 41.7,
+        "timestamp": 1745520874
+    }
+]

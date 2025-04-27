@@ -1,0 +1,44 @@
+[
+    {
+        "dht22_humidity": 27.6,
+        "sensor_id": "room",
+        "temperature": 26.1,
+        "timestamp": 1745766265
+    },
+    {
+        "dht22_humidity": 27.5,
+        "sensor_id": "room",
+        "temperature": 26.1,
+        "timestamp": 1745766866
+    },
+    {
+        "dht22_humidity": 27.5,
+        "sensor_id": "room",
+        "temperature": 26.1,
+        "timestamp": 1745767466
+    },
+    {
+        "dht22_humidity": 27.3,
+        "sensor_id": "room",
+        "temperature": 26.1,
+        "timestamp": 1745768067
+    },
+    {
+        "dht22_humidity": 27.3,
+        "sensor_id": "room",
+        "temperature": 26.2,
+        "timestamp": 1745768668
+    },
+    {
+        "dht22_humidity": 27.3,
+        "sensor_id": "room",
+        "temperature": 26.1,
+        "timestamp": 1745769268
+    },
+    {
+        "dht22_humidity": 27.3,
+        "sensor_id": "room",
+        "temperature": 26.1,
+        "timestamp": 1745769869
+    }
+]
