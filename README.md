@@ -55,6 +55,6 @@ If you are running this experiment on campus you will need to connect the pico t
 
 3. Secure the
    
-## 3. Data Analysis
-1. Find the R and C values using data from when the radiator is off.
-## 4. Results
+## 4. Data Analysis
+Our data analysis is available in /analysis/modeling1.ipynb
+
