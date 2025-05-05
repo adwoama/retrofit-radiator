@@ -51,9 +51,9 @@ If you are running this experiment on campus you will need to connect the pico t
 
 1. Cut  and tape rigid foam boardinsulation to fit around your radiator.
 
-2. Cut a hole for your small DC fan in one of the walls of the foam insulation and insert the fan in there. Make sure you secure the pico outside of the box so it doesn't overheat, but keep the dht sensor inside thebox.
+2. Cut a hole for your small DC fan in one of the walls of the foam insulation and insert the fan in there. Make sure you secure the pico outside of the box so it doesn't overheat, but keep the dht sensor inside the box.
 
-3. Secure the
+3. Secure the other picos and their sensors to the wall or set them on the table. The main.py file on each pico will start collecting and transmitting data immediately after being turned on, then once every ten minutes.
    
 ## 4. Data Analysis
 Our data analysis is available in /analysis/modeling1.ipynb
